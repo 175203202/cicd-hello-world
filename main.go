@@ -55,7 +55,7 @@ func hello(w http.ResponseWriter, r *http.Request) {
 	log.Printf("Serving request: %s", r.URL.Path)
 	fmt.Fprintf(w, "Hello, world!\n")
 	fmt.Fprintf(w, "CI/CD!\n")
-	fmt.Fprintf(w, "ddddddddThis change will trigger a build! It is an awesome job, perfect JDD.\n")
+	fmt.Fprintf(w, "This change will trigger a build! It is an awesome job, perfect JDD.\n")
 }
 
 // [END all]
